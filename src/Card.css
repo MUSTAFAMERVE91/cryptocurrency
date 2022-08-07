@@ -1,0 +1,27 @@
+.coin-news{
+    width: 100%;
+    background-color: #fff;
+}
+.coin-news .container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.coin-news img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 24px;
+}
+.coin-news img{
+    width:200px;
+    height: 150px;
+}
+.card-title{
+    font-size:15px;
+    color:var(--primary)
+}
+.card-text{
+    font-weight: 800;
+}
