@@ -9,8 +9,7 @@ const Card = ({ item }) => {
           {item.map((Val) => {
             return (
               <div
-                key={Val.id}
-              >
+                key={Val.id}>
                 <div>
                   <img src={Val.img} alt={Val.title} className="img" />
                 </div>

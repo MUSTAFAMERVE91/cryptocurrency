@@ -1,5 +1,9 @@
 import React from 'react'
-/*import { BrowserRouter, Route, Routes } from 'react-router-dom';*/
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 import { Navbar } from './components/Navbar';
 import {Content} from './components/Content';
 import {Featured} from './components/Featured';
@@ -26,18 +30,19 @@ export function App() {
   };
   return (
     <>
-    <Navbar />
-    <Content onFormSubmit={formSubmitHandler} />
-    <Featured/>
-    <Signup/>
-    <Buttons 
-    filterItem={filterItem}
-    setItem={setItem}
-    menuItems={menuItems}
-  />
-  
-  <Card item={item} />
-  <Footer/>
-    </>
+<Navbar />
+<Content onFormSubmit={formSubmitHandler} />
+<Featured/>
+<Signup/>
+<Buttons 
+filterItem={filterItem}
+setItem={setItem}
+menuItems={menuItems}
+/>
+
+<Card item={item} />
+<Footer/>
+</>
+ 
   );
 }

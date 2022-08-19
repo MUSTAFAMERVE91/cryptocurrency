@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .coin-news img{
     display: flex;
     flex-direction: column;
@@ -20,7 +21,8 @@
 }
 .card-title{
     font-size:15px;
-    color:var(--primary)
+    color:var(--primary);
+    font-weight: bold;;
 }
 .card-text{
     font-weight: 800;
